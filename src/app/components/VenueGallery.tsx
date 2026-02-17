@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, useInView } from 'motion/react';
-import theClubImage from 'figma:asset/c670e19affd11d89b2a30af534ed2017dc03d526.png';
-import epicurienImage from 'figma:asset/166feaea51cd1dc56dd473abd49e3e28d8743b76.png';
-import lotusClubImage from 'figma:asset/fdc0ef717e3c851e60011ed5b3d4d01dfd0152e1.png';
-import backstageImage from 'figma:asset/114f76c06face0526fa7e83d996812c19f3d4048.png';
-import leComptoirImage from 'figma:asset/8e3e14f80b4ab327c324f082c6fa96aef14c67de.png';
+import theClubImage from '../../assets/c670e19affd11d89b2a30af534ed2017dc03d526.png';
+import epicurienImage from '../../assets/166feaea51cd1dc56dd473abd49e3e28d8743b76.png';
+import lotusClubImage from '../../assets/fdc0ef717e3c851e60011ed5b3d4d01dfd0152e1.png';
+import backstageImage from '../../assets/114f76c06face0526fa7e83d996812c19f3d4048.png';
+import leComptoirImage from '../../assets/8e3e14f80b4ab327c324f082c6fa96aef14c67de.png';
 
 interface Venue {
   name: string;
