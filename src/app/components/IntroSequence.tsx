@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
-import heroImage from 'figma:asset/b83ec7a4a4919fad0faeb4aa19895e4e653968ef.png';
-import alphaLogo from 'figma:asset/fa05f527b8e2aefc73827166bbebfa0bf1d33fef.png';
+import heroImage from '../../assets/b83ec7a4a4919fad0faeb4aa19895e4e653968ef.png';
+import alphaLogo from '../../assets/fa05f527b8e2aefc73827166bbebfa0bf1d33fef.png';
 
 interface IntroSequenceProps {
   onComplete: () => void;
@@ -111,7 +111,7 @@ export function IntroSequence({ onComplete, onBooking }: IntroSequenceProps) {
           className="absolute bottom-20 left-0 right-0 z-30 flex flex-col items-center gap-6"
         >
           <div className="flex flex-wrap justify-center gap-4">
-            <button 
+            <button
               onClick={() => {
                 const element = document.getElementById('contact');
                 if (element) {
@@ -122,7 +122,7 @@ export function IntroSequence({ onComplete, onBooking }: IntroSequenceProps) {
             >
               Contact Us
             </button>
-            <button 
+            <button
               onClick={onBooking}
               className="group relative overflow-hidden bg-[#FF0000] px-8 py-4 text-lg font-black uppercase tracking-wide text-white transition-all hover:scale-105"
             >
@@ -131,7 +131,7 @@ export function IntroSequence({ onComplete, onBooking }: IntroSequenceProps) {
               <div className="absolute inset-0 opacity-0 shadow-[0_0_30px_10px_rgba(255,0,0,0.8)] transition-opacity duration-300 group-hover:opacity-100" />
             </button>
           </div>
-          <button 
+          <button
             onClick={() => {
               const element = document.getElementById('gallery');
               if (element) {
