@@ -1,10 +1,10 @@
 import { motion, useInView } from 'motion/react';
 import { useRef } from 'react';
-import alphaLogo from 'figma:asset/fa05f527b8e2aefc73827166bbebfa0bf1d33fef.png';
-import performanceImage1 from 'figma:asset/2c64ff4422c8a06ab8457c4e0d28cf200316a510.png';
-import performanceImage2 from 'figma:asset/da4d3d53a87369b705bea49cad92c7028c7a41a5.png';
-import performanceImage3 from 'figma:asset/d0e7c53a2c402db3d8932efa8696106ff1110751.png';
-import performanceImage4 from 'figma:asset/c2a8f6463ab32da0e56f310527899319a8b519a8.png';
+import alphaLogo from '../../assets/fa05f527b8e2aefc73827166bbebfa0bf1d33fef.png';
+import performanceImage1 from '../../assets/2c64ff4422c8a06ab8457c4e0d28cf200316a510.png';
+import performanceImage2 from '../../assets/da4d3d53a87369b705bea49cad92c7028c7a41a5.png';
+import performanceImage3 from '../../assets/d0e7c53a2c402db3d8932efa8696106ff1110751.png';
+import performanceImage4 from '../../assets/c2a8f6463ab32da0e56f310527899319a8b519a8.png';
 
 export function AboutSection() {
   const ref = useRef(null);
@@ -37,8 +37,8 @@ export function AboutSection() {
             The Sound. The Energy.
           </h2>
           <p className="text-lg leading-relaxed text-white/80">
-            With over 10 years behind the decks, DJ ALPHA has mastered the art of blending Tech House 
-            and R&B Grooves to create unforgettable nights. From intimate venues in Agadir to the legendary 
+            With over 10 years behind the decks, DJ ALPHA has mastered the art of blending Tech House
+            and R&B Grooves to create unforgettable nights. From intimate venues in Agadir to the legendary
             clubs of Marrakech, every set is a journey through sound that keeps the crowd moving until dawn.
           </p>
         </motion.div>
@@ -71,7 +71,7 @@ export function AboutSection() {
                 src={performanceImage2}
                 alt="DJ Alpha Performance"
                 className="h-[120%] w-full object-cover transition-transform duration-500 group-hover:scale-110"
-                style={{ 
+                style={{
                   objectPosition: 'center 60%',
                   transform: 'translateY(-10%)'
                 }}
