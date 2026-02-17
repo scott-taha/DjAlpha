@@ -2,7 +2,7 @@ import { useState, FormEvent } from 'react';
 import { motion } from 'motion/react';
 import { Calendar, Mail, Phone, User, Music, ArrowLeft, CheckCircle } from 'lucide-react';
 import emailjs from '@emailjs/browser';
-import alphaLogo from 'figma:asset/fa05f527b8e2aefc73827166bbebfa0bf1d33fef.png';
+import alphaLogo from '../../assets/fa05f527b8e2aefc73827166bbebfa0bf1d33fef.png';
 
 interface BookingPageProps {
   onBack: () => void;
